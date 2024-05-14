@@ -1,0 +1,118 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.block1{
+    width: 23rem;
+    height: 10rem;
+    background-color: #256df1;
+    margin-left: 35rem;
+    margin-top: 10rem;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 0 4px 0.4px #585858;
+    display: flex;
+    justify-content: center;
+
+}
+.block2 {
+    width: 23rem;
+    height: 18rem;
+    background-color: rgb(255, 255, 255);
+    margin-left: 35rem;
+    margin-top: -0px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0 0 4px 0.4px #585858;
+    text-align: center;
+    
+}
+.block1 img {
+    margin-top: 30px;
+    border: 5px solid rgb(37, 109, 241);
+}
+
+.text {
+    text-align: center;
+    margin-top: -265px;
+    margin-left: -90px;
+    color: #1f1f1f;
+}
+
+.text p {
+    margin-top: -10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.icons {
+    font-size: 30px;
+    text-align: center;
+    margin-left: -100px;
+}
+
+.icons i {
+    margin-left: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#one {
+    background-color: #ff006a;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#two  {
+    background-color: #008cff;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#three {
+    background-color: #27c23c;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#four {
+    background-color: #1c6133;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;  
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-left: -150px;
+    margin-top: 15px;
+}
+
+.buttons button {
+    margin-left: 50px;
+    width: 120px;
+    height: 30px;
+    border-radius: 30px;
+    border: 0;
+    background: #008cff;
+    color: #fff;
+    transition: all 0.2s;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.emoji {
+    display: flex;
+    justify-content: center;
+    margin-left: -150px;
+}
+
+.emoji i {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
